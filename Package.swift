@@ -4,6 +4,7 @@
 import PackageDescription
 
 let package = Package(
+    platforms: [.iOS(.v10)],
     name: "Epic",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
