@@ -12,6 +12,8 @@
  Configure `pollingLoad` and `pollingTime` to your specific needs, since they will have a huge impact on your code performance.
  There is no limit for the amount of messages you can deal with at a time.
  */
+import Foundation
+
 open class Broker {
     /// Message Bus used to retrieve messages
     public let messageBus: MessageBusProtocol
